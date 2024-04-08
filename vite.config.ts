@@ -15,4 +15,8 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
+  base: 'https://dof-wiki.github.io/baiduyun-llink-decoder/',
+  build: {
+    outDir: 'docs'
+  }
 })
